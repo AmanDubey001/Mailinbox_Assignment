@@ -1,10 +1,10 @@
 Tech Stack Used:
-1.React JS
-2. MUI 
+1. MUI
+2. React JS
 
 Steps Post Clone:
 1. NPM Install
 2. NPM Start
-   
+ 
 
 
