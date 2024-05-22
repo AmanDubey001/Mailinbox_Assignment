@@ -18,14 +18,14 @@ function App() {
       mode: "dark",
       background: "#25262B",
       color: "white",
-      minHeight: "100vh"
+      minHeight: "100vh",
     }
   });
 
 
   // token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoiYW1hbmR1YmV5NDUxQGdtYWlsLmNvbSIsImlkIjoxNDEsImZpcnN0TmFtZSI6IkFtYW4iLCJsYXN0TmFtZSI6IkR1YmV5In0sImlhdCI6MTcxNDExNDMwOCwiZXhwIjoxNzQ1NjUwMzA4fQ.BkvpgN0AF2I1Sc58I3gHBsT3eWzg5-s_E0nx1yvJhRw
   return (
-    <div style={theme.palette}>
+    <div style={{...theme.palette,backgroundColor:"black"}} className='App'>
 
       <ThemeContext.Provider value={{ theme, setTheme }} >
         {/* <Main /> */}
